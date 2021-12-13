@@ -87,12 +87,54 @@ public class ElementaryProgramming {
 //        double d2 = input.nextDouble();
 
         // Reading input in a correct way (2) ** preferred
-        System.out.print("Enter an integer: ");
-        int i2 = Integer.parseInt(input.nextLine());
-        System.out.print("Enter a string: ");
-        String str = input.nextLine();
-        System.out.print("Enter a double: ");
-        double d2 = Double.parseDouble(input.nextLine());
+//        System.out.print("Enter an integer: ");
+//        int i2 = Integer.parseInt(input.nextLine());
+//        System.out.print("Enter a string: ");
+//        String str = input.nextLine();
+//        System.out.print("Enter a double: ");
+//        double d2 = Double.parseDouble(input.nextLine());
+
+        // Reading integer sequence in one line
+        // Örn; 5 3 4 8 9 {Enter}
+        // Ex; Read 4 integers
+//        System.out.print("Enter 4 integers: ");
+//        int a = input.nextInt();
+//        int b = input.nextInt();
+//        int c = input.nextInt();
+//        int e = input.nextInt();
+//        input.nextLine();
+//        System.out.println("a: " + a);
+//        System.out.println("b: " + b);
+//        System.out.println("c: " + c);
+//        System.out.println("e: " + e);
+
+
+        // String format. Ch4.6
+        System.out.printf("Hello world!\n");
+
+        // Format specifier: % ile belirtilir. Yanına koyulan harf ile veri tipi belirtilir.
+        // %d -> integer
+        // %s -> String
+        // %f -> double, float
+        // %c -> char
+        String name = "Ömer";
+        String school = "Marmara University";
+        double gpa = 3.43;
+        System.out.printf("Hi, my name is %s. I am studying at %s. My GPA is %f", name, school, gpa);
+        System.out.println("Hi, my name is " + name + ". I am studying at " + school + ". My GPA is " + gpa);
+
+        double d2 = 1/3.0;
+        System.out.println("result: " + d2);
+        System.out.printf("result: %.3f\n", d2);
+        System.out.printf("%30s%30s\n", "Programming Language", "Release Date");
+        System.out.printf("%30s%30s\n", "Java", "1990");
+        System.out.printf("%30s%30s\n", "C", "1985");
+
+        System.out.printf("%-30s%-30s\n", "Programming Language", "Release Date");
+        System.out.printf("%-30s%-30s\n", "Java", "1990");
+        System.out.printf("%-30s%-30s\n", "C", "1985");
+
+
 
     }
 }
