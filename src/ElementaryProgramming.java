@@ -123,7 +123,7 @@ public class ElementaryProgramming {
         System.out.printf("Hi, my name is %s. I am studying at %s. My GPA is %f", name, school, gpa);
         System.out.println("Hi, my name is " + name + ". I am studying at " + school + ". My GPA is " + gpa);
 
-        double d2 = 1/3.0;
+        double d2 = 1 / 3.0;
         System.out.println("result: " + d2);
         System.out.printf("result: %.3f\n", d2);
         System.out.printf("%30s%30s\n", "Programming Language", "Release Date");
@@ -134,7 +134,32 @@ public class ElementaryProgramming {
         System.out.printf("%-30s%-30s\n", "Java", "1990");
         System.out.printf("%-30s%-30s\n", "C", "1985");
 
+        String str = "1230a";
+        System.out.println(reverseNumericalString(str));
 
 
+    }
+
+    public static String reverseNumericalString(String str) {
+        try {
+            int number = Integer.parseInt(str); // To check if str is a numerical string
+            String reversed = getReversed(str);
+            number = Integer.parseInt(reversed); // Delete 0 at the beginning if there is one
+            reversed = number + ""; // int to String casting
+            return reversed;
+
+        } catch (Exception e) {
+            System.out.println(str + " is not a numerical string.");
+            return str;
+        }
+    }
+
+    public static String getReversed(String str) {
+        int length = str.length();
+        String reversed = "";
+        for (int i = length - 1; i >= 0; i--) {
+            reversed += str.charAt(i);
+        }
+        return reversed;
     }
 }
