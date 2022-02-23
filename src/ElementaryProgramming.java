@@ -1,9 +1,15 @@
 import java.util.Scanner;
 
 public class ElementaryProgramming {
+    int gl = 3;
+
+    void f(){
+        System.out.println(gl);
+    }
     public static void main(String[] args) {
         System.out.println("Hello world!");
-
+        int xx = 3;
+        System.out.println(xx);
         // Variables
         // int i; -> Declaration, i = 5; -> Assignment
         int i = 5;
