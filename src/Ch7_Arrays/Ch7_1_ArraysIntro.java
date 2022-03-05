@@ -1,6 +1,6 @@
-package Ch6_Arrays;
+package Ch7_Arrays;
 
-public class Ch6_1_ArraysIntro {
+public class Ch7_1_ArraysIntro {
     public static void main(String[] args) {
 
         // 1- Array oluşturmak

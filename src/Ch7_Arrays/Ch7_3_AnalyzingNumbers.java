@@ -1,8 +1,8 @@
-package Ch6_Arrays;
+package Ch7_Arrays;
 
 import java.util.Arrays;
 
-public class Ch6_3_AnalyzingNumbers {
+public class Ch7_3_AnalyzingNumbers {
     public static void main(String[] args) {
         // The problem is to write a program that finds the number of items above the average of
         // all items.

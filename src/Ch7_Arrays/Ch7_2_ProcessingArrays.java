@@ -1,6 +1,6 @@
-package Ch6_Arrays;
+package Ch7_Arrays;
 
-public class Ch6_2_ProcessingArrays {
+public class Ch7_2_ProcessingArrays {
     public static void main(String[] args) {
         // 1- Initializing array with input values
 //        int[] numbers = new int[5];
