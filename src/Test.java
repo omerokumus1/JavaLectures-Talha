@@ -1,7 +1,11 @@
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.Arrays;
+import java.util.HashMap;
+//import org.json.*;
 
 public class Test {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         // find max profit.
 //        int[] prices1 = {6, 3, 1, 2, 5, 4};
 //        int[] prices2 = {8, 5, 3, 1};
@@ -10,8 +14,29 @@ public class Test {
 //        int[] startTime = {13, 24, 5};
 //        int[] finishTime = {13, 24, 20};
 //        System.out.println(Arrays.toString(solution(startTime, finishTime)));
-        String inputString = "aabb";
-        System.out.println(solution(inputString));
+//        String inputString = "aabb";
+//        System.out.println(solution(inputString));
+//
+
+        HashMap<String, String> hm = new HashMap<>();
+        hm.put("name", "Ömer");
+        hm.put("surname", "Okumuş");
+        hm.put("age", "25");
+        hm.put("school", "Marmara");
+        hm.put("department", "CSE");
+        hm.put("program", "Master");
+
+//        JSONObject jo = new JSONObject(hm);
+//        System.out.println(jo);
+//
+//        PrintWriter pw = new PrintWriter("myjs.json");
+//        String js = jo.toString();
+//        System.out.println(js);
+//        pw.write(jo.toString());
+//        pw.flush();
+//        pw.close();
+
+
 
     }
 

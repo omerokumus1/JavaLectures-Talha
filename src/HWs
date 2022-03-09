@@ -12,3 +12,12 @@ HW6- Bir arrayin elemanlarını 1 eleman sağa kaydır (Sonuncu elemanı sağa k
 ----
 HW7: Rastgele elemanlarla 10 elemanlı dizi oluştur bu dizide en küçük sayıyı bul (methodlarla yaz)
 HW8: Bir arrayin elemanlarını 1 eleman sağa kaydır (Sonuncu elemanı sağa kaydırınca başa geçmeli) (methodlarla yaz)
+
+----
+HW9: PasswordGenerator'ı geliştir:
+                        Üretilen şifrede:
+                                a. En az 1 küçük harf
+                                b. en az 1 büyük harf
+                                c. en az 2 özel karakter
+                                d. en az 2 digit olsun
+                                e. en az 8 karakter uzunluğunda olmalı
