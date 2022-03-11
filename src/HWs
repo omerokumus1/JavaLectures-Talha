@@ -21,3 +21,9 @@ HW9: PasswordGenerator'ı geliştir:
                                 c. en az 2 özel karakter
                                 d. en az 2 digit olsun
                                 e. en az 8 karakter uzunluğunda olmalı
+
+
+----
+HW10: stringler için contains methodunu yaz. döngüler ve kendi methodlarını kullan
+HW11: yazdığımız charSearchInAString methodunu bir de case insensitive yaz
+HW12: Binary Search methodunu yaz. geeksforgeeks sayfasından binary search algoritmasının videosunu izleyebilirsin
