@@ -1,5 +1,8 @@
 package Ch7_Arrays;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Ch7_10_ArraySearch {
     public static void main(String[] args) {
         // array search: bir array içerisinde belirli bir elemanı bulmak anlamına gelir
@@ -61,7 +64,6 @@ public class Ch7_10_ArraySearch {
         System.out.println("nums contains " + e + ": " + binarySearch2(nums, e));
         e = 20;
         System.out.println("nums contains " + e + ": " + binarySearch2(nums, e));
-
 
 
     }
