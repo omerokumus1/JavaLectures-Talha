@@ -5,7 +5,82 @@ import java.util.Arrays;
 public class Ch7_11_ArraySort {
     public static void main(String[] args) {
         int[] nums = {2, 9, 5, 4, 8, 1, 6};
-        selectionSort2(nums);
+//        selectionSort(nums);
+        bubbleSort4(nums);
+//        System.out.println(Arrays.toString(nums));
+    }
+
+    private static void bubbleSort(int[] nums) {
+        int counter = 0;
+        for (int i = 0; i < nums.length-1; i++) {
+            for (int j = 0; j < nums.length-1; j++) {
+                if (nums[j] > nums[j+1])
+                    swapConsecutiveElements(nums, j);
+                counter++;
+            }
+            System.out.println(Arrays.toString(nums));
+        }
+        System.out.println(counter);
+    }
+
+    private static void bubbleSort2(int[] nums) {
+        int counter = 0;
+        for (int i = 0; i < nums.length-1; i++) {
+            for (int j = 0; j < nums.length-1-i; j++) {
+                if (nums[j] > nums[j+1])
+                    swapConsecutiveElements(nums, j);
+                counter++;
+            }
+            System.out.println(Arrays.toString(nums));
+        }
+        System.out.println(counter);
+    }
+    private static void bubbleSort3(int[] nums) {
+        int indexOfMin = findMinIndex(nums);
+        int counter = 0;
+        for (int i = 0; i < indexOfMin; i++) {
+            for (int j = 0; j < nums.length-1; j++) {
+                if (nums[j] > nums[j+1])
+                    swapConsecutiveElements(nums, j);
+                counter++;
+            }
+            System.out.println(Arrays.toString(nums));
+        }
+        System.out.println(counter);
+    }
+   private static void bubbleSort4(int[] nums) {
+        int counter = 0;
+        boolean isSorted;
+        for (int i = 0; i < nums.length-1; i++) {
+            isSorted = true;
+            for (int j = 0; j < nums.length-1; j++) {
+                if (nums[j] > nums[j+1]) {
+                    swapConsecutiveElements(nums, j);
+                    isSorted = false;
+                }
+                counter++;
+            }
+            System.out.println(Arrays.toString(nums));
+            if (isSorted)
+                break;
+        }
+        System.out.println(counter);
+    }
+
+    private static int findMinIndex(int[] nums) {
+        int minIndex = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] < nums[minIndex])
+                minIndex = i;
+        }
+        return minIndex;
+    }
+
+
+    private static void swapConsecutiveElements(int[] nums, int i) {
+        int temp = nums[i];
+        nums[i] = nums[i+1];
+        nums[i+1] = temp;
     }
 
     private static void selectionSort(int[] arr){
