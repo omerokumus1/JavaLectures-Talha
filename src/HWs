@@ -34,3 +34,10 @@ HW13: Insertion sort, bubble sort için araştırma yap
 ----
 HW14: Insertion sort, bubble sort ve selection sort algoritmalarını kendin implement et
         Java book: 7.1-7.7, 7.1 ile 7.7 dahil
+
+----
+HW15: Java book 8.3 Processing 2D Arrays:
+        5. Summing elements by column (Kitapta var, 5 numaralı)
+        6.1. Which row has the largest sum (Kitapta var, 6 numaralı)
+        6.2. Which column has the largest sum (Kitapta yok)
+        Case study 8.5, 8.7
