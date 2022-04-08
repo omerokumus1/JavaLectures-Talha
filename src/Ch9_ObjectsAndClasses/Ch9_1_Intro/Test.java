@@ -1,6 +1,5 @@
 package Ch9_ObjectsAndClasses.Ch9_1_Intro;
 
-import java.lang.module.ModuleFinder;
 
 public class Test {
     public static void main(String[] args) {
@@ -30,10 +29,18 @@ public class Test {
         circle4.introduce();
         System.out.println("circle4 area: " + circle4.calculateArea());
         System.out.println("circle4 perimeter: " + circle4.calculatePerimeter());
+
+        // anonymous object: bir değişkene atanmayan objedir
+        System.out.println("area of anonymous object: " + calculateArea(new Circle())); // new Circle() ile bir değişkene atanmadan
+                                                                        // obje oluşturup methoda gönderdik. Bu objeye anonymous obje denir
+
+        // null: bir referans değişkeni herhangi bir objeyi göstermiyorsa null değerine sahiptir
+        Circle circle5 = null; // circle5 herhangi bir objeyi göstermez yani circle5 değişkeni ile bir objeye erişemeyiz
+//        System.out.println(circle5.radius); // NullPointerException verir çünkü circle5 null'dur ve onunla erişilebilecek herhangi bir obje yoktur
     }
 
     // tercih edilmez, class içerisinde yazmak daha iyi.
-    double calculateArea(Circle circle){
+    static double calculateArea(Circle circle){
         return Math.PI * circle.radius * circle.radius;
     }
 }

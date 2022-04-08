@@ -7,6 +7,10 @@ public class Circle {
     int lineWidth;
 
     /*
+        Class: obje üretmek için kullanılan şablondur. Class sayesinde nasıl bir obje oluşturacağımızı ve nasıl oluşturacağımızı
+                anlarız.
+        Obje: Class aracılığıyla üretilen nesnedir. Class'a bakarak obje üretilir.
+
          Constructor: özel bir methoddur. diğer methodlardan farkı obje oluşturma işini yapar.
                 methodun ismi class yine aynıdır. return değeri yazılmaz, void vs içermez
 
@@ -17,7 +21,7 @@ public class Circle {
                                     Eğer en az 1 tane constructor yazılmışsa, no-arg constructor silinir.
      */
     // no-arg constructor
-    Circle(){
+    public Circle(){
         radius = 1;
         lineColor = "Black";
         lineWidth = 1;
@@ -50,11 +54,7 @@ public class Circle {
         return 2 * Math.PI * radius;
     }
 
-
-
-
-
-
-
-
+    public int getRadius() {
+        return radius;
+    }
 }
