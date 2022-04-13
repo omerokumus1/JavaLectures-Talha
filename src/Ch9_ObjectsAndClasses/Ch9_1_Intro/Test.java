@@ -24,6 +24,7 @@ public class Test {
 
         // Birden fazla constructor kullanım örneği + Yeni property'lerin örneği
         Circle circle4 = new Circle(7, "Red", 2);
+        System.out.println(circle4);
         System.out.println("circle4 radius: " + circle4.radius + ", lineColor: " + circle4.lineColor + ", lineWidth: " + circle4.lineWidth);
 
         circle4.introduce();
