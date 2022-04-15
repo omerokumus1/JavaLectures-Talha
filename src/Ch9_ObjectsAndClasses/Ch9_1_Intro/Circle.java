@@ -2,7 +2,7 @@ package Ch9_ObjectsAndClasses.Ch9_1_Intro;
 
 public class Circle {
     // Data field -> properties
-    int radius;
+    public int radius;
     String lineColor;
     int lineWidth;
 
