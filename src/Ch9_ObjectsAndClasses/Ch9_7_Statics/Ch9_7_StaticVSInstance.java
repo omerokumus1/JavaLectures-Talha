@@ -2,6 +2,8 @@ package Ch9_ObjectsAndClasses.Ch9_7_Statics;
 
 import Ch9_ObjectsAndClasses.Ch9_1_Intro.Circle;
 
+import java.awt.*;
+
 public class Ch9_7_StaticVSInstance {
     public static void main(String[] args) {
         /*
@@ -83,4 +85,14 @@ public class Ch9_7_StaticVSInstance {
     private static void dummy(){
         Employee.printNumberOfEmployees();
     }
+
+    private static double dist(int x1, int y1, int x2, int y2) {
+        return 0;
+    }
+
+    private static double dist2(Point p1, Point p2) {
+        return 0;
+    }
+
+
 }

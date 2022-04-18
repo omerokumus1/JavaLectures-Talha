@@ -57,4 +57,8 @@ public class Circle {
     public int getRadius() {
         return radius;
     }
+
+    private void dummy() {
+
+    }
 }
