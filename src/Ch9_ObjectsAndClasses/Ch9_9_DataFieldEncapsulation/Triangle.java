@@ -12,7 +12,7 @@ public class Triangle {
         c = s3;
     }
 
-    // Getters
+    // Getters/accessor
     public double getA() {
         return a;
     }
@@ -25,7 +25,7 @@ public class Triangle {
         return c;
     }
 
-    // Setters
+    // Setters/mutator
     public void setA(double newValue) {
         a = newValue;
     }
