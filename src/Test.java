@@ -40,6 +40,10 @@ public class Test {
 
     }
 
+    public static void format(double d) {
+        // 1- ondalık basamak kontrolü
+        // 2- format işlemini gerçekleştir
+    }
     static boolean solution(String inputString){
         int len = inputString.length();
         if (len % 2 == 0){
