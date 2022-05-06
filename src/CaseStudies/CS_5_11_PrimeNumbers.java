@@ -4,7 +4,7 @@ public class CS_5_11_PrimeNumbers {
     public static void main(String[] args) {
         // Find prime numbers upto a limit
         // Solution 1 - Top-down Approach
-        /* TODO:
+        /* TO DO:
                 1. Specify the limit
                 2. Start with 2 go upto the limit one by one
                 3. For each number, check if it is a prime number.

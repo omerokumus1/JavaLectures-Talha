@@ -9,7 +9,7 @@ public class CS5_10_CheckingPalindromes {
         String str = input.nextLine();
 
         // Solution 1
-        /* TODO:
+        /* TO DO:
             1. Reverse the string
             2. Check the equality of the strings
             3. If string and its reversed version are the same, then it is a palindrome, else it is not
@@ -30,7 +30,7 @@ public class CS5_10_CheckingPalindromes {
             System.out.println(str + " is not a palindrome");
 
         // Solution 2
-        /*  TODO:
+        /*  TO DO:
                 1. Repeatedly check characters from the last and the beginning
                 2. If you found an unmatch, then it is not a palindrome, else it is a palindrome
          */

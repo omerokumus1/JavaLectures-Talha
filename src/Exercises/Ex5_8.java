@@ -9,7 +9,7 @@ public class Ex5_8 {
         of students and each student’s name and score, and finally displays the name
         of the student with the highest score.
          */
-        /** TODO:
+        /** TO DO:
          *      1. Read number of students
          *      2. Read students names and scores
          *      3. Keep track of the max score and the student

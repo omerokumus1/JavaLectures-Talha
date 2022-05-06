@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ex5_14_GCD {
     public static void main(String[] args) {
         // Write a program that prompts the user to enter two positive integers and displays the gcd.
-        /** TODO:
+        /** TO DO:
          *      1. Read two integers
          *      2. Find gcd of two integers
          *          2.1. Find minimum of two integer to be assigned as limit

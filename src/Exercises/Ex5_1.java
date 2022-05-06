@@ -15,7 +15,7 @@ public class Ex5_1 {
 
         // Solution 1
 
-        /** TODO:
+        /** TO DO:
          *      1. Create a sentinel controlled loop
          *      2. Read inputs ***
          *      3. Process numbers one by one
@@ -60,7 +60,7 @@ public class Ex5_1 {
 
 
         // Solution 2
-        /** TODO:
+        /** TO DO:
          *      1. Read input as a string
          *      2. Split the string by space **
          *      3. Move over the elements and process them

@@ -25,7 +25,7 @@ public class Ch6_1_1_JobConceptAndNaming {
                         ocağı temizlemek = parçaları yıkamak + ocağı silmek
                     banyoyu temizlemek = yerleri yıkamak + klozeti yıkamak
 
-               TODO:
+               TO DO:
                     1. Mutfağı Temizle
                         1.1. Bulaşığı yıka
                         1.2. Ocağı yıka

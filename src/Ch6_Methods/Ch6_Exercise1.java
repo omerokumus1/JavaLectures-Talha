@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Ch6_Exercise1 {
     public static void main(String[] args) {
         // HW4- Rastgele elemanlarla 10 elemanlı dizi oluştur bu dizide en büyük sayıyı bul
-        /* TODO:
+        /* TO DO:
                 1. Rastgele elemanlarla dizi oluşturan bir method tanımla
                 2. En büyük sayıyı bulan method tanımla
 

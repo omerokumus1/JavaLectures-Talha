@@ -13,7 +13,7 @@ public class Ex5_22 {
         number of years, and interest rate and displays the amortization schedule for the loan
          */
 
-        /** TODO:
+        /** TO DO:
          *      1. Read loan amount, number of years, interest rate
          *      2. Compute monthly interest as monthlyInterest = monthlyInterestRate * balance
          *      3. balance = monthly payment - monthly interest

@@ -3,7 +3,7 @@ package Ch6_Methods;
 public class Ch6_ExercisePasswordGenerator {
     public static void main(String[] args) {
         /*
-            TODO:
+            TO DO:
                 1. Küçük harf üreten bir method yaz
                 2. Büyük harf üreten bir method yaz
                 3. Sayı üreten bir method yaz

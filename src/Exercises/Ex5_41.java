@@ -12,7 +12,7 @@ public class Ex5_41 {
 
     public static void main(String[] args) {
         // Solution 1
-        /** TODO:
+        /** TO DO:
          *      1. Read numbers as string.
          *      2. Obtain numbers till the first 0
          *          2.1. Find the index of the first 0
@@ -90,7 +90,7 @@ public class Ex5_41 {
 
 
         // Solution 2
-        /** TODO:
+        /** TO DO:
          *      1. Read numbers indefinitely -> sentinel controlled loop with sentinel value of 0
          *      2. Count elements
          *          2.1. For the first iteration, the first elements is automatically the max and count is 1

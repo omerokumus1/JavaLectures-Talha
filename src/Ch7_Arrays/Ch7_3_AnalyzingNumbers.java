@@ -7,7 +7,7 @@ public class Ch7_3_AnalyzingNumbers {
         // The problem is to write a program that finds the number of items above the average of
         // all items.
 
-    /*  TODO:
+    /*  TO DO:
             1. Create a random array
             2. Find the average of the array
             3. Find numbers that are greater than the average
