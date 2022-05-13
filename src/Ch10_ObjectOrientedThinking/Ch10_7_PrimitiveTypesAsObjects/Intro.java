@@ -25,7 +25,24 @@ public class Intro {
          */
         Intro.format(123.2);
 //        Test.format(123.2);
+        int i1 = 3;
+        Integer i2 = i1; // boxing
+        i1 = i2; // unboxing
+        long l = 1234_5678_9101L;
         // TODO: Util class vs Wrapper class vs Extension Class
+        /*
+            util class: projenin genelde tümünde kullanılan ortak methodların bulunduğu classtır
+            Wrapper class: Projenin her yerinde değil ama belli bir alanında sürekli kullanılan fonksiyonları implement
+                etmek için oluşturulur. Örn; SpecialString
+            Extension class: Kullanım alanı aynı Wrapper class'lar gibidir. Tek farkı inheritance ile oluşturulmasıdır.
+                Bazı classlar final olduğu için extend edilemez (Integer, String) bu durumlarda Wrapper class kulanılması gerekir.
+                Extension classlarda otomatik olarak üst class'ın bütün özellikleri açıktır. Kapatmak istediğimiz bir method varsa
+                    override edilerek kapatılabilir.
+         */
+        // Util class örnek
+        // kullanıcıdan email aldık
+        String email = "omerokumus@hotmail.com";
+        StringUtil.isEmailFormatValid(email);
     }
 
     public static void format(double d) {
